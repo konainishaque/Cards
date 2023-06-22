@@ -1,0 +1,149 @@
+.container{
+    background-color: lightgray;
+    width: 26rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 2rem 6rem black;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #963737;
+    font-family: poppins;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 1000px;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.circle {
+    top: 0;
+    left: 0;
+    background-color:  #000000;
+    width: 300px;
+    border-radius: 250px;
+    z-index: 1;
+  }
+  .header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    margin-top: 20px;
+  
+  }
+  .shoe{
+    height: 270px;
+  border-radius: 150px;
+    z-index: 2;
+    transform: rotate(-20deg);
+    padding-bottom: 15px;
+  }
+  .container-body{
+    display: flexbox;
+    align-items: center;
+  }
+  h1{
+    margin-left: 15px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  p{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .size{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+.size p{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 20px;
+  align-items: center;
+  cursor: pointer;
+
+}
+.star {
+  color: rgb(32, 32, 32);
+  font-size: 24px;
+}
+.rating{
+  margin-left: 12px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.color{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+.color h2{
+  margin-left: 8px;
+}
+.color span{
+  width: 2rem;
+  height: 2rem;
+ margin-left: 10px;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+.blue{
+  background-color: rgb(1, 1, 54);
+}
+.red{
+  background-color: #963737;
+}
+.green{
+  background-color: rgb(85, 129, 18);
+}
+.black{
+  background-color: #000000;
+}
+.cart{
+  height: 18px;
+}
+.button{
+  display: flex;
+  align-items: center;
+ width: 250px;
+  padding-left: 5px;
+  justify-content: space-between;
+}
+.addtocart{
+ display: flex;
+ width: 150px;
+ padding: 10px 10px;
+ border: none;
+ background-color: #cf7039;
+ color: rgb(58, 57, 57);
+ font-weight: bold;
+ border-radius: 5px;
+ justify-content: space-between;
+ font-weight: 600;
+ cursor: pointer;
+}
+.rating h2{
+  display: flex;
+font-weight: 500;
+padding-right: 10px;
+
+}
+@media (max-width: 1200px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+}
